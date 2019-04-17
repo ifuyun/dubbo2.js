@@ -10,9 +10,11 @@ provider.demoProvider = dubbo =>
         return [java.String(name)];
       },
 
-      echo() {},
+      echo() {
+      },
 
-      test() {},
+      test() {
+      },
 
       getUserInfo() {
         return [
